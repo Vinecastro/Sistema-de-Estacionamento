@@ -5,15 +5,19 @@ import veiculoRoutes from "./routes/vehicles.js";
 import db from "./db/db.js";
 
 dotenv.config();
+
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: ["http://localhost:3000", "https://estacionamento-sigma.vercel.app"]
 }));
+
 app.use(express.json());
 
 app.use("/api/veiculos", veiculoRoutes);
 
-app.listen(8800, () => {
-  console.log("Servidor rodando na porta 8800");
+const PORT = process.env.PORT || 8800;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
