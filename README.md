@@ -73,7 +73,7 @@ Rode o front-end:
 
 npm start
 
-### 📂 Estrutura do repositório
+📂 Estrutura do repositório
 Sistema-de-Estacionamento/
  ┣ api/        # Backend Node.js
  ┃ ┣ src/
