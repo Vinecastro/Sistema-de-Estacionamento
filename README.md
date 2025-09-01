@@ -73,16 +73,16 @@ Rode o front-end:
 
 npm start
 
-📂 Estrutura do repositório
+### 📂 Estrutura do repositório
 Sistema-de-Estacionamento/
- ┣ api/        # Backend Node.js
- ┃ ┣ src/
- ┃ ┣ schema.sql
- ┃ ┗ .env.example
- ┣ client/     # Front-end React
- ┃ ┣ src/
- ┃ ┗ public/
- ┗ README.md
++ api/        # Backend Node.js
+| + src/
+| + schema.sql
+| + .env.example
++ client/     # Front-end React
+  + src/
+  + public/
++ README.md
 
 ✨ Autor
 
